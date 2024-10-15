@@ -1,7 +1,19 @@
-# Vue 3 + Vite
+# Xware 预约系统
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+frontend文件夹为前端文件
 
-## Recommended IDE Setup
+> 没有注释，有点屎山的感觉，好多我都忘了为什么这么写了，有空重构以下，趁工程量还不大，先凑合着看
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+xware-server为后端
+
+系统基本完成后可以考虑分开（我有点懒不想分开）
+
+
+
+**系统目前不完善**，有以下待解决的点：
+
+* 需要后台管理系统
+* 前端预约界面添加进入loading动画和提交loading动画
+* 前端预约表格获取时间和问题类型抽屉添加loading动画
+* 前端添加未登录直接跳转登录逻辑
+* 待补充
